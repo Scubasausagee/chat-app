@@ -1,10 +1,12 @@
 {
   "scripts": {
     "dev": "env-cmd -f config/dev.env nodemon src/index.js",
-    "start":"node src/index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "bad-words": "^3.0.4",
+    "express": "^4.17.1",
+    "socket.io": "^4.3.2"
   },
   "name": "chat-app",
   "version": "1.0.0",
